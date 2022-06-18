@@ -1,0 +1,432 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.homepage {
+    width: 100%;
+}
+.logo {
+    font-size: 30px;
+    color: rgb(136, 19, 8);
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: rgb(11, 6, 40);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 70px;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.navbar ul li a:hover {
+    color: rgb(191, 24, 169);
+    transition: .4s;
+}
+.content-middle {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78)),  url(image1.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.content {
+    width: 100%;
+    position: absolute;
+    top: 70%;
+    color: white;
+    transform: translateY(-50%);
+    text-align: left;
+    padding: 30px 70px;
+}
+.content h1 {
+    color: wheat;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+.content h2 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+.bottom-ele {
+    background-color: rgb(8, 5, 39);
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+}
+.bottom-ele p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 20px;
+    font-size: 18px;
+}
+.bottom {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.icon1 {
+    height: 30px;
+    border-radius: 17px;
+    background-color: rgb(84, 45, 200);
+    width: 29px;
+    padding-left: 2px;
+    padding-top: 5px;
+    margin-right: 20px;
+}
+.icon2 {
+    height: 30px;
+    border-radius: 17px;
+    background-color: #4078c0;
+    width: 29px;
+    padding-left: 1px;
+    padding-top: 6px;
+    margin-right: 20px;
+}
+.icon3 {
+    height: 30px;
+    border-radius: 17px;
+    background-color: rgb(83, 57, 75);
+    width: 29px;
+    padding-left: 0px;
+    padding-top: 6px;
+}
+.contact-me {
+    margin-top: 15px;
+}
+.btn {
+    color: white;
+    font-size: 13px;
+    background-color: #2d1733;
+    border-radius: 12px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: #7c4789;
+}
+.aboutsec {
+    background-color: rgb(56, 15, 52);
+    height: 100vh;
+    width: 100%;
+}
+.head {
+    color: rgb(186, 11, 142);
+    font-size: 40px;
+    text-transform: capitalize;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+.main{
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text {
+    width: 450px;
+}
+.about-text h2 {
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.about-text p {
+    color: white;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.img {
+    height: 300px;
+    padding: 10px;
+}
+.navbar2{
+    background-color: rgb(48, 15, 48);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+.navbar2 ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+    align-items: center;
+}
+.navbar2 ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.navbar2 ul li a:hover {
+    color: rgb(191, 24, 169);
+    transition: .4s;
+}
+.educationsection {
+    background-color: rgb(56, 15, 52);
+    height: 160vh;
+    width: 100%;
+}
+.main-head {
+    padding: 30px;
+    text-align: center;
+    color: rgb(186, 11, 142);
+}
+
+.image {
+    height: 250px;
+    width: 25%;
+    padding: 20px;
+}
+.eduelements {
+    text-align: center;
+}
+.btech {
+    color: white;
+    padding-bottom: 15px;
+}
+.btech h1 {
+    color: white;
+    font-size: 27px;
+    padding: 10px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+.btech h2 {
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 6px;
+}
+.btech p {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+.eduelements {
+    text-align: center;
+}
+.inter {
+    color: white;
+    padding-bottom: 15px;
+}
+.inter h1 {
+    color: white;
+    font-size: 27px;
+    padding: 10px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+.inter h2 {
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 6px;
+}
+.inter p {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+.btech {
+    color: white;
+    padding-bottom: 15px;
+}
+.btech h1 {
+    color: white;
+    font-size: 27px;
+    padding: 10px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+.btech h2 {
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 6px;
+}
+.btech p {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+
+.ssc {
+    color: white;
+    padding-bottom: 15px;
+}
+.ssc h1 {
+    color: white;
+    font-size: 27px;
+    padding: 10px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+.ssc h2 {
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 6px;
+}
+.ssc p {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+.bottomsec {
+    text-align: center;
+    color: white;
+}
+.work-head {
+    color: rgb(11, 133, 186);
+    padding: 40px;
+    text-align: center;
+}
+.work-head h1{
+    color: rgb(58, 117, 163);
+    font-size: 30px;
+}
+.img3 {
+    height: 160px;
+    border-radius: 20px;
+}
+.expersec {
+    background-color: rgb(56, 15, 52);
+    height: 110vh;
+    width: 100%;
+}
+.exper-head {
+    color: rgb(13, 171, 183);
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+}
+.bottomsec h2 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+.bottomsec h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+
+}
+.web {
+    color: coral;
+    font-size: 20px;
+    font-family: monospace;
+    padding-left: 5px;
+}
+.weblink {
+    color: #894747;
+    font-size: 15px;
+    text-decoration: none;
+}
+.weblink2 {
+    color: #894747;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+.skillsec {
+    background-color: rgb(56, 15, 52);
+    height: 190vh;
+    width: 100%;
+}
+.skillachiev-head {
+    padding: 30px;
+    text-align: center;
+    color: rgb(186, 11, 142);
+}
+.skill-head {
+    color: rgb(184, 144, 32);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+.program {
+    color: white;
+    text-align: center;
+}
+.heading {
+    font-size: 23px;
+    padding-top: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.img1 {
+    height: 120px;
+    padding-top: 35px;
+}
+.para {
+    color: lightcyan;
+    font-size: 18px;
+    padding: 30px;
+}
+.img2 {
+    height: 120px;
+    padding-top: 19px;
+    padding-right: 25px;
+}
+.img3 {
+    height: 113px;
+    padding-top: 19px;
+    padding-right: 25px;
+}
+.certifysec {
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+.certify-head {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(32, 133, 184);
+    padding: 20px;
+    letter-spacing: 1px;
+}
+.elements {
+    color: white;
+}
+.elements ul li {
+    color: white;
+    list-style: none;
+}
+.badgesec {
+    color: white;
+}
+.badgesec h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(32, 133, 184);
+    padding-top: 40px;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+}
+.badgesec h2 {
+    padding: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+}
+.item1 {
+    padding: 8px;
+    list-style: none;
+}
